@@ -17,8 +17,6 @@ Are you a college student or a working professional looking for resources to lea
 
 When I was in college, I missed a lot of opportunities like hackathons, conferences, internships, workshops and many global events due to lack of awareness. I don't want the emerging developers to suffer the same as me. Hence, I and a bunch of other developers around have collected a list of resources for students. If you are in college, a college graduate, or just starting out as a developer, you should definitely check it out!
 
-![Image](res/a2z.png)
-
 *Image credits: Google*
 
 [AI Tools and Resources](#ai-tools-and-resources)
