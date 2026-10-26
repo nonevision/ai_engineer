@@ -1,0 +1,30 @@
+name: SEO Audit
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * 1' # Run weekly
+
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install SEO Analyzer
+        run: npm install -g seo-analyzer
+        
+      - name: Run SEO Analysis
+        run: seo-analyzer --url https://dipakkr.github.io/A-to-Z-Resources-for-Students/ --json
+        
+      - name: Upload SEO Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: seo-report
+          path: seo-report.json

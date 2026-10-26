@@ -1,0 +1,14 @@
+# Robots.txt for A to Z Resources for Students
+# https://github.com/dipakkr/A-to-Z-Resources-for-Students
+
+User-agent: *
+Allow: /
+
+Sitemap: https://dipakkr.github.io/A-to-Z-Resources-for-Students/sitemap.xml
+
+# Disallow crawling of admin pages
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+# Crawl delay (optional)
+Crawl-delay: 1

@@ -1,1 +1,44 @@
+title: A to Z Resources for Students
+description: Comprehensive collection of resources for students and developers - programming languages, AI/ML, blockchain, cybersecurity, web development, mobile apps, and more.
+baseurl: ""
+url: "https://dipakkr.github.io/A-to-Z-Resources-for-Students/"
+
 theme: jekyll-theme-cayman
+
+# SEO Configuration
+plugins:
+  - jekyll-seo-tag
+
+# SEO Meta Tags
+meta:
+  author: Dipak Kr
+  description: "Complete resource hub for students and developers. Learn programming languages, AI & ML, blockchain, cybersecurity, web development, mobile apps, and prepare for interviews."
+  keywords: "students, developers, programming, python, javascript, ai, machine learning, blockchain, cybersecurity, web development, mobile development, interview prep, hackathons, internships"
+  social:
+    name: A to Z Resources for Students
+    links:
+      - https://github.com/dipakkr
+      - https://www.linkedin.com/in/dipakkr/
+
+# GitHub Repository Info
+repository: dipakkr/A-to-Z-Resources-for-Students
+repository_url: https://github.com/dipakkr/A-to-Z-Resources-for-Students
+
+# Social Sharing Images
+logo: /res/a2z.png
+twitter:
+  username: dipakkr
+  card: summary_large_image
+  image:
+    path: /res/a2z.png
+    height: 630
+    width: 1200
+
+facebook:
+  app_id: 123456789
+  publisher: https://www.facebook.com/dipakkr
+
+open_graph:
+  image: /res/a2z.png
+  site_name: A to Z Resources for Students
+  type: website
